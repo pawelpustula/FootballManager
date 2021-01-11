@@ -1,5 +1,7 @@
-<div class="buttons">
-    <button mat-raised-button color="primary">Za³aduj</button>
-    <button mat-raised-button color="primary">Dodaj</button>
-    <button mat-raised-button color="primary">Usuñ</button>
-</div>
+<ion-content>
+    <div class="buttons">
+        <button mat-raised-button (click)="load()" color="primary" class="but">Wczytaj</button>
+        <button mat-raised-button (click)="add()" color="primary" class="but">Dodaj</button>
+        <button mat-raised-button (click)="remove()" color="primary" class="but">Usuñ</button>
+    </div>
+</ion-content>
